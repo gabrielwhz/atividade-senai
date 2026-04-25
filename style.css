@@ -17,22 +17,54 @@ body {
 
 .title {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     border-bottom: solid 4px #ffffff;
-    padding: 5px;
-    gap: -10px;
+    padding-bottom: 10px;
 }
 
 .title h1 {
     letter-spacing: 4px;
-    font-size: 70px;
+    font-size: 55px;
     color: white;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .title h2 {
+    font-size: 25px;
     color: #ffffff;
 }
 
+.icons {
+    font-size: 35px;
+    color: #fff;                
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.button button {
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(1.7px);
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.button button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
